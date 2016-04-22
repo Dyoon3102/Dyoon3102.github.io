@@ -28,5 +28,49 @@
 			<li>Super deformed grade (SG)</li>
 		</ul>
 	</div>
+	<form name="gundam_choice" action="https://httpbin.org/post" method="post">
+		<fieldset>
+			<div>
+				<label>Full name:</label>
+				<input type="text" name="fullname">
+			</div>
+			<div>
+				<label>E-mail:</label>
+				<input type="email" name="email">
+			</div>
+			<div>
+				<label>Phone:</label>
+				<input type="text" name="phone">
+			</div>
+		</fieldset>
+		<fieldset>
+			<div>
+				<label>Gundam series:</label>
+				<input type="text" name="series" placeholder="Name the series">
+			</div>
+			<div>
+				<label>Gunpla Scale:</label>
+				<select name="gunpla_scale">
+					<option value="1/144">1/144</option>
+					<option value="1/100">1/100</option>
+					<option value="1/72">1/72</option>
+					<option value="1/60">1/60</option>
+					<option value="1/35">1/35</option>
+				</select>
+			</div>
+			<div>
+				<label>Gunpla Grade:</label>
+				<select name="gunpla_grade">
+					<option value="hg">High</option>
+					<option value="mg">Master</option>
+					<option value="pg">Perfect</option>
+					<option value="rg">Real</option>
+					<option value="sg">Super deformed</option>
+				</select>
+			</div>
+			<div></div>
+		</fieldset>
+		<button type="submit">Your Gunpla</button>
+	</form>
 </body>
 </html>

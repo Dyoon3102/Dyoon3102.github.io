@@ -1,3 +1,123 @@
 body {
-	background: blue;
+	font-family: Helvetica;
+	background: url(space.jpg);
+	background-size: cover;
+	color: white;
+}
+
+h1 {
+	color: #0033ff;
+	text-shadow: 2px 2px red;
+	font-size: 3em;
+	font-family: Courier;
+	margin-bottom: 3px;
+	font-variant: small-caps;
+	border: 2px solid green;
+	border-radius: 10px;
+	padding: 10px;
+	height: 60px;
+	width: 540px;
+}
+
+h2 {
+	color: #0033ff;
+	text-shadow: 1.5px 1.5px red;
+	font-family: Courier;
+	font-size: 3em;
+	margin-top: 50px;
+	margin-bottom: 3px;
+	font-variant: small-caps;
+	border: 2px solid green;
+	border-radius: 10px;
+	padding: 10px;
+	height: 60px;
+	width: 420px;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: orange;
+	margin-bottom: 0px;
+}
+
+nav {
+	margin: auto;
+	background-color: black;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+img {
+	width: 60%;
+}
+
+.frame-pic {
+	width: 30%;
+}
+
+.assembly-pic {
+	width: 30%;
+}
+
+.main-info {
+	color: white;
+	width: 80%;
+	margin-top: 0px;
+	background-color: black;
+}
+
+.sub-info {
+	color: white;
+	width: 60%;
+	margin-top: 0px;
+	background-color: black;
+}
+
+.user-input {
+	margin-top: 40px;
+}
+
+#site-info {
+	width: 60%;
+}
+
+.grade-list {
+	list-style-type: square;
+}
+
+ul, ol {
+	margin-top: 0px;
+}
+
+fieldset {
+	width: 400px;
+}
+
+footer {
+	margin: auto;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  h1, h2 {
+    background-color: orange;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-info .sub-info {
+    font-size: 0.8em;
+  }
 }
